@@ -1,0 +1,29 @@
+/* journey page */
+
+body{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-article img {
+    margin: 0 auto;
+    margin: 1em 0;
+    width: 100%;
+}
+
+.main-article {
+    padding: 1em;
+    grid-area: hr;
+}
+
+.resent {
+    text-align: center;
+    margin: 4em 0 0 0;
+    font-weight: bold;
+}
+
+.main-article p,
+.main-article h2,
+.main-article h3 {
+    padding: 0 1rem;
+}

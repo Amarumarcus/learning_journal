@@ -1,0 +1,38 @@
+/* journey page */
+
+body{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-me img {
+    width: 10em;
+    margin: 0 1em;
+}
+
+.about-me {
+    grid-area: hr;
+}
+
+.resent {
+    text-align: center;
+    margin: 4em 0 0 0;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 1em 0 0.5em 0;
+}
+
+.about-me p,
+.about-me h2,
+.about-me h3 {
+    padding: 0 1rem;
+}
+
+@media (min-width: 600px) {
+    .hero-about-me {
+        display: flex;
+        align-items: center;
+    }
+}
